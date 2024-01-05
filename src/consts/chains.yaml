@@ -5,6 +5,16 @@ jupiter:
   protocol: ethereum
   rpcUrls:
     - http: https://evmrpc.jupiternft.xyz
+  isTestnet: false
+  blockExplorers: # Array: List of BlockExplorer configs
+    # Required fields:
+    - name: Jupiter Explorer # String: Human-readable name for the explorer
+      url: https://explorer.jupiternft.xyz/ # String: Base URL for the explorer
+      apiUrl: https://explorer.jupiternft.xyz//api # String: Base URL for the explorer API
+  nativeToken:
+    name: GAS # String
+    symbol: GAS # String
+    decimals: 18 # Number
 conan:
   name: conan
   chainId: 3024376

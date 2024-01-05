@@ -7,24 +7,24 @@ export const tokenList: WarpTokenConfig = [
   // Example collateral token for an EVM chain
   {
     type: 'collateral',
-    chainId: 5,
-    address: '0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6',
-    hypCollateralAddress: '0x145de8760021c4ac6676376691b78038d3DE9097',
-    name: 'Weth',
-    symbol: 'WETH',
+    chainId: 6833895,
+    address: '0x9B0e4fd977f9FC723aC9057d41db55e7A29eb75a',
+    hypCollateralAddress: '0x2294f7aD5818BA3aD22872d3fECE08dF49BCdAb2',
+    name: 'Pepe token',
+    symbol: 'Pepe',
     decimals: 18,
     logoURI: '/logos/weth.png', // See public/logos/
   },
 
   // Example NFT (ERC721) token for an EVM chain
   {
-    chainId: 5,
-    name: 'Test721',
-    symbol: 'TEST721',
+    chainId: 6833895,
+    name: 'Rollapes',
+    symbol: 'Rollape',
     decimals: 0,
     type: 'collateral',
-    address: '0x77566D540d1E207dFf8DA205ed78750F9a1e7c55',
-    hypCollateralAddress: '0xDcbc0faAA269Cf649AC8950838664BB7B355BD6B',
+    address: '0xe203370D7F5D6b67701e8fcebF220e08dA22464D',
+    hypCollateralAddress: '0x70FC3d61063135ff080d5235EAd3a319E0aE9ddD',
     isNft: true,
   },
 ];
