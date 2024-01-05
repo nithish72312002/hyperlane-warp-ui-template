@@ -3,13 +3,13 @@
 # The input here is typically the output of the Hyperlane CLI warp deploy command
 ---
 # Replace this [] with your token list
-
+[]
 # Example using a native token:
-  "chainId": 6833895,
-  "name": "Pepe token",
-  "symbol": "Pepe ",
-  "decimals": 18,
-  "type": "collateral",
-  "address": "0x9B0e4fd977f9FC723aC9057d41db55e7A29eb75a",
-  "hypCollateralAddress": "0x2294f7aD5818BA3aD22872d3fECE08dF49BCdAb2",
+  "chainId": 6833895
+  "name": "Pepe token"
+  "symbol": "Pepe "
+  "decimals": 18
+  "type": "collateral"
+  "address": "0x9B0e4fd977f9FC723aC9057d41db55e7A29eb75a"
+  "hypCollateralAddress": "0x2294f7aD5818BA3aD22872d3fECE08dF49BCdAb2"
   "isNft": false
