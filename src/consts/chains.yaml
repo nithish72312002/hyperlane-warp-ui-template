@@ -22,4 +22,10 @@ conan:
   protocol: ethereum
   rpcUrls:
     - http: https://froopyland.dymension.xyz/16/conan_3024376-1/evmrpc
-
+kynraze:
+  name: kynraze
+  chainId: 4338147
+  domainId: 4338147
+  protocol: ethereum
+  rpcUrls:
+    - http: https://evm-kynhub.kynraze.com
