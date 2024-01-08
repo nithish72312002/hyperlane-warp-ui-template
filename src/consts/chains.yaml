@@ -1,11 +1,10 @@
 jupiter:
-  name: jupiter
+  name: jupiter 
   chainId: 6833895
   domainId: 6833895
   protocol: ethereum
   rpcUrls:
     - http: https://evmrpc.jupiternft.xyz
-  isTestnet: false
   blockExplorers: # Array: List of BlockExplorer configs
     # Required fields:
     - name: Jupiter Explorer # String: Human-readable name for the explorer
@@ -15,6 +14,7 @@ jupiter:
     name: GAS # String
     symbol: GAS # String
     decimals: 18 # Number
+  logoURI: /jupiter.png
 conan:
   name: conan
   chainId: 3024376
@@ -22,6 +22,16 @@ conan:
   protocol: ethereum
   rpcUrls:
     - http: https://froopyland.dymension.xyz/16/conan_3024376-1/evmrpc
+  blockExplorers: # Array: List of BlockExplorer configs
+    # Required fields:
+    - name: Rustcoder Explorer # String: Human-readable name for the explorer
+      url: https://explorer.rustcoder.com/ # String: Base URL for the explorer
+      apiUrl: https://explorer.rustcoder.com/api # String: Base URL for the explorer API
+  nativeToken:
+    name: CONAN # String
+    symbol: CON # String
+    decimals: 18 # Number
+  logoURI: /conan_3024376-1.png
 kynraze:
   name: kynraze
   chainId: 4338147
@@ -29,3 +39,13 @@ kynraze:
   protocol: ethereum
   rpcUrls:
     - http: https://evm-kynhub.kynraze.com
+  blockExplorers: # Array: List of BlockExplorer configs
+    # Required fields:
+    - name: Kynraze Explorer # String: Human-readable name for the explorer
+      url: https://evm.kynraze.com/ # String: Base URL for the explorer
+      apiUrl: https://evm.kynraze.com/api # String: Base URL for the explorer API
+  nativeToken:
+    name: KYNRAZE # String
+    symbol: KYN # String
+    decimals: 18 # Number
+  logoURI: /kynraze_2223-1.png

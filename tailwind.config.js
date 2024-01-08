@@ -16,6 +16,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        orange: '#ff6b55',
         black: '#010101',
         black2: '#15171a',
         white: '#ffffff',
@@ -112,6 +113,9 @@ module.exports = {
       maxWidth: {
         'xl-1': '39.5rem',
       },
+      boxShadow: {
+        'button': '3px 3px 1px 0 rgb(0, 0, 0)',
+    },
     },
   },
   plugins: [],

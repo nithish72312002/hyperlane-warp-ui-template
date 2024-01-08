@@ -145,7 +145,7 @@ export function SideBarMenu({
                     className="flex justify-between items-center rounded-xl border border-gray-200 px-2.5 py-2 mb-2.5 hover:bg-gray-200 active:bg-gray-300 transition-all duration-500"
                   >
                     <div className="flex">
-                      <div className="mr-2.5 flex flex-col items-center justify-center rounded-full bg-gray-100 h-[2.25rem] w-[2.25rem] p-1.5">
+                      <div className="mr-2.5 flex flex-col items-center justify-center rounded-sm bg-gray-100 h-[2.25rem] w-[2.25rem] p-1.5">
                         <ChainLogo chainCaip2Id={t.params.originCaip2Id} size={20} />
                       </div>
                       <div className="flex flex-col">

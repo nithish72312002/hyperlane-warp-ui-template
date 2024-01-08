@@ -338,7 +338,7 @@ function ButtonSection({
       </SolidButton>
       <SolidButton
         type="button"
-        color="pink"
+        color="blue"
         onClick={triggerTransactionsHandler}
         classes="flex-1 px-3 py-1.5"
       >
@@ -365,7 +365,7 @@ function MaxButton({
     <SolidButton
       type="button"
       onClick={onClick}
-      color="gray"
+      color="white"
       disabled={disabled}
       classes="text-xs absolute right-0.5 top-2 bottom-0.5 px-2"
     >
@@ -391,7 +391,7 @@ function SelfButton({ disabled }: { disabled?: boolean }) {
     <SolidButton
       type="button"
       onClick={onClick}
-      color="gray"
+      color="white"
       disabled={disabled}
       classes="text-xs absolute right-0.5 top-2 bottom-0.5 px-2"
     >
