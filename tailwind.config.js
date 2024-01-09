@@ -15,10 +15,8 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
-      backgroundImage: theme => ( {
-        'herobackground': "url('/backgrounds/hero-bg.png')",
-      }),
       colors: {
+        back: '#eee6d0',
         orange: '#ff6b55',
         black: '#010101',
         black2: '#15171a',
