@@ -25,7 +25,4 @@ export function Footer() {
   );
 }
 
-const styles = {
-  linkCol: 'flex flex-col gap-2',
-  linkItem: 'flex items-center capitalize text-decoration-none hover:underline underline-offset-2',
-};
+
