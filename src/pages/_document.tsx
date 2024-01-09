@@ -15,18 +15,18 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#025aa1" />
         <meta name="theme-color" content="#ffffff" />
 
-        <meta name="application-name" content="Hyperlane Warp Template UI" />
+        <meta name="application-name" content="bridge" />
         <meta
           name="keywords"
           content="Hyperlane Warp Route Template UI Token Bridge Interchain App"
         />
         <meta
           name="description"
-          content="A web app template for building Hyperlane Warp Route UIs"
+          content="Bridge NFT and ERC20 Tokens"
         />
 
         <meta name="HandheldFriendly" content="true" />
-        <meta name="apple-mobile-web-app-title" content="Hyperlane Warp Template UI" />
+        <meta name="apple-mobile-web-app-title" content="bridge" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <meta property="og:url" content="https://hyperlane.xyz" />
