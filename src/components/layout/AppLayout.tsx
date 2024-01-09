@@ -15,7 +15,7 @@ export function AppLayout({ children }: PropsWithChildren) {
       <div
         style={styles.container}
         id="app-content"
-        className="relative flex flex-col justify-between h-full min-h-screen w-full min-w-screen bg-cover bg-center" style={{ backgroundImage: "url('/backgrounds/hero-bg.png')" }}>
+        className="relative flex flex-col justify-between h-full min-h-screen w-full min-w-screen bg-cover bg-center  bg-herobackground"  >
         
         <div className="hidden md:flex absolute left-[8%] top-[15%]">
           <Image src="/backgrounds/hero-thumb3.png" alt="Planet 1" width={200} height={100} priority={false} quality={50}></Image>

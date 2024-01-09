@@ -15,6 +15,9 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
+      backgroundImage: theme => ( {
+        'herobackground': "url('/backgrounds/hero-bg.png')",
+      }),
       colors: {
         orange: '#ff6b55',
         black: '#010101',
@@ -115,7 +118,7 @@ module.exports = {
       },
       boxShadow: {
         'button': '3px 3px 1px 0 rgb(0, 0, 0)',
-    },
+      },
     },
   },
   plugins: [],
