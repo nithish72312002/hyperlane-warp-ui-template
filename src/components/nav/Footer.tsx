@@ -1,24 +1,8 @@
 
 import { Image } from '@chakra-ui/react';
-import { links } from '../../consts/links';
-import { Discord } from '../icons/Discord';
-import { Github } from '../icons/Github';
-import { Medium } from '../icons/Medium';
-import { Twitter } from '../icons/Twitter';
 
-const footerLinks1 = [
-  { title: 'Docs', url: links.docs, external: true },
-  { title: 'Homepage', url: links.home, external: true },
-  { title: 'Explorer', url: links.explorer, external: true },
-  { title: 'Chains', url: links.chains, external: true },
-];
 
-const footerLinks3 = [
-  { title: 'Twitter', url: links.twitter, external: true, icon: <Twitter fill="#fff" /> },
-  { title: 'Discord', url: links.discord, external: true, icon: <Discord fill="#fff" /> },
-  { title: 'Github', url: links.github, external: true, icon: <Github fill="#fff" /> },
-  { title: 'Blog', url: links.blog, external: true, icon: <Medium fill="#fff" /> },
-];
+
 
 export function Footer() {
   return (
@@ -35,7 +19,6 @@ export function Footer() {
               <div>Hyperlane</div>
             </div>
           </div>
-         
         </div>
       </div>
     </footer>
