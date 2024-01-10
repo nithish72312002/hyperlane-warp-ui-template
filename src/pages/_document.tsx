@@ -18,7 +18,7 @@ export default function Document() {
         <meta name="application-name" content="bridge" />
         <meta
           name="keywords"
-          content="Hyperlane Warp Route Template UI Token Bridge Interchain App"
+          content="Bridge NFT and ERC20 Tokens"
         />
         <meta
           name="description"
@@ -30,12 +30,12 @@ export default function Document() {
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <meta property="og:url" content="https://hyperlane.xyz" />
-        <meta property="og:title" content="Hyperlane Warp Template UI" />
+        <meta property="og:title" content="Bridge" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://hyperlane.xyz/logo.png" />
         <meta
           property="og:description"
-          content="A web app template for building Hyperlane Warp Route UIs"
+          content="Bridge NFT and ERC20 Tokens"
         />
       </Head>
       <body className="text-black">
